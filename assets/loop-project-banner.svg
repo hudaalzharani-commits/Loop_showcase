@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="LOOP project banner">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#12263A"/>
+      <stop offset="100%" stop-color="#1B3A4B"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3DD6C3"/>
+      <stop offset="50%" stop-color="#2BB8E6"/>
+      <stop offset="100%" stop-color="#5B8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="180" fill="#3DD6C3" opacity="0.08"/>
+  <circle cx="180" cy="520" r="220" fill="#5B8CFF" opacity="0.10"/>
+  <rect x="96" y="220" width="112" height="112" rx="28" fill="url(#mark)"/>
+  <text x="152" y="292" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="42" font-weight="700" fill="#FFFFFF">&lt;/&gt;</text>
+  <text x="240" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#F5F7FA">LOOP</text>
+  <text x="240" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#A9B7C6">Learn · Build · Grow  together</text>
+  <text x="240" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#7F91A3">Developer community platform · Product showcase</text>
+</svg>
