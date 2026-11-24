@@ -1,60 +1,70 @@
 # Feature Overview
 
+LOOP's iPhone app, as shipped to the TestFlight beta (November 2026).
+
 ## Core Capabilities
 
-### 1. Intent-based discovery
+### 1. Onboarding by intent
 
-Users signal what they need — study partners, build partners, or hackathon teammates — so discovery is goal-shaped instead of endless browsing.
+New members say what they can contribute (backend, design, iOS…), what they need, their interests, city, and what they're looking for (a build partner, a hackathon team, a co-founder, someone to learn with). Matching starts from day one.
 
-### 2. Live Loop pulse
+### 2. Discover
 
-Home surfaces live community signals (learners online, studying now / active rooms, projects today, need teammates) that deep-link into the right discovery or rooms experience.
+One match card at a time: a fit percentage, a one-line reason ("Sara brings backend, you bring frontend"), roles offered vs. needed, and what they're building. Filters for build partners, hackathon teams, learners and co-founders.
 
-### 3. Study groups & rooms
+### 3. Build partners
 
-Shared study spaces for accountability and presence — reducing the “I’m studying alone” default.
+An explicit Connect request, a match moment when it's accepted, then a private chat with replies, @mentions, voice notes, photos and GIFs.
 
-### 4. Hackathon team formation
+### 4. Challenge dice
 
-Structured team posts (roles, size, availability, commitment, idea) plus an **ON / OFF recruiting** state. Peers can **Request to Join**; owners accept or decline with capacity rules.
+Inside the partner chat, the pair rolls a real problem to build together, with starter files to begin. This is what turns a match into work in the first days.
 
-### 5. Requests hub
+### 5. Hackathon teams
 
-Join requests have a clear lifecycle (`pending` → `accepted` / `declined` / `cancelled` / `expired`) with detail views and notifications — not silent DMs.
+Hackathon events with their state (open, closing soon, upcoming). Team listings show open seats per role and are hidden once full. Members send join requests, and the owner accepts or declines. Accepted members get a team group with chat and **live voice**.
 
-### 6. Partnership & team chat
+### 6. Communities
 
-Accepted collaborations open the right conversation context so matching turns into working together.
+A feed of updates, questions and project posts. "Looking for" posts ("I need a backend developer for a weekend hackathon") gather interest that the author reviews. Official and member communities have a voice-note chat and a whiteboard.
 
-### 7. Builder identity
+### 7. Links that spread
 
-Profiles expose about, skills, looking-for intent, portfolio, GitHub, and active hackathon-team badges.
+Every profile, team, hackathon and post can be shared as a link with a ready message. Your own team post says "1 seat left — we need a UI/UX designer". Someone else's reads as a personal tip: "Saw this and thought of you". Links open the app straight on that screen, and previews show the LOOP card.
 
-### 8. Support & platform ops
+### 8. Profiles
 
-In-app support tickets, admin dashboard (users, reports, overview), alerts, and founder-direct messaging for product stewardship.
+What you're building, roles, interests, projects and GitHub. Counts of hackathons joined, build partners and projects. An Early Builder badge for the first members.
+
+### 9. Safety
+
+Text and images are filtered before they're posted. Report and block are available on every profile, post and message, and reports are reviewed within 24 hours. Accounts can be deleted from the app, including the data.
+
+### 10. Admin and metrics
+
+A staff admin on the web covers users, reports, communities and support tickets. It also shows the pilot metrics: partnerships that started real work, week-1 return, weekly active collaborations, sign-ups from shared links, and report response time.
 
 ## Capability Map
 
 | Capability | Product role |
 |------------|--------------|
-| **Discovery** | Find people by intent and skills |
-| **Groups / rooms** | Study and collaborate in shared spaces |
-| **Hackathon teams** | Recruit and join with structure |
-| **Requests** | Manage join / partnership decisions |
-| **Chat** | Continue collaboration after match |
-| **Portfolio / GitHub** | Show builder credibility |
-| **Streaks & presence** | Keep momentum visible |
-| **Admin / support** | Keep the community healthy |
+| **Discover** | Find people who complete you |
+| **Partnerships** | Turn a match into a private working space |
+| **Dice challenges** | Give every new pair a first thing to build |
+| **Hackathon teams** | Recruit and join with structure and capacity |
+| **Communities** | Ask, share progress, find people in public |
+| **Share links** | Let members grow LOOP by solving their own needs |
+| **Safety** | Keep a community of strangers safe |
+| **Admin & metrics** | Run the community and measure what matters |
 
 ## What LOOP Is Not
 
 - Not a generic social network
 - Not a job board
 - Not a Discord replacement without product structure
-- Not an unsupervised “match and forget” marketplace
+- Not a "match and forget" marketplace
 
-LOOP is a **community operating system** for developers who want to learn and build with others.
+LOOP is a place where people who want to build find each other and **actually start**.
 
 ## Related Materials
 

@@ -1,49 +1,53 @@
 # Discovery & Matching
 
-Conceptual design of how LOOP moves users from **intent → visibility → request → collaboration**.
+How LOOP moves people from **intent → match → first shared work**.
 
 ## Intent Model
 
-Users declare what they are looking for. Discovery and home deep-links respect that intent.
+Members declare what they can contribute, what they need, their interests and city, and what they're looking for. Discover filters and ranks by that.
 
 ```mermaid
 flowchart LR
-    A["User intent"] --> B{"Looking for?"}
-    B -->|Study energy| C["Groups / rooms"]
-    B -->|Build partner| D["Discovery — build"]
-    B -->|Hackathon team| E["Discovery — teams"]
-    C --> F["Join / participate"]
-    D --> G["Request / chat"]
-    E --> H["Request to Join Team"]
+    A["Member intent"] --> B{"Looking for?"}
+    B -->|Build partner| C["Discover: build partners"]
+    B -->|Hackathon team| D["Hackathons: open seats"]
+    B -->|Co-founder| E["Discover: co-founders"]
+    B -->|Learn together| F["Discover: learners"]
+    C --> G["Connect request"]
+    E --> G
+    F --> G
+    D --> H["Join request for a seat"]
+    G --> I["Partner chat + challenge dice"]
+    H --> J["Team group + live voice"]
 ```
 
-## Live Loop Signals
+## Ranking: "complete each other"
 
-Home does not only display vanity metrics — each pulse is a **navigation cue**:
+Each candidate gets a fit percentage from signals such as:
 
-| Signal | Destines users to |
-|--------|-------------------|
-| Learners online | Discovery |
-| Studying now / active rooms | Groups |
-| Projects today | Discovery (build partners) |
-| Need teammates | Discovery (hackathon teams) |
+| Signal | Example |
+|--------|---------|
+| Complementary roles | They offer backend, you need backend |
+| Shared intent | Both looking for a hackathon team |
+| Shared interests | React, AI, UI/UX |
+| Place and activity | Same city, recently active |
+
+The card explains the strongest reason in one line ("Sara brings backend, you bring frontend"). People who already declined, are already partners, or have a pending request are left out. Ranking runs on LOOP's own servers.
 
 ## Matching Principles
 
-1. **Signal clarity** — profiles show skills, looking-for, portfolio, and active-team context
-2. **Explicit asks** — join requests require confirmation; no silent spam
-3. **Lifecycle honesty** — pending / accepted / declined states are visible to both sides
-4. **Capacity respect** — teams stop accepting when full or recruiting is off
-5. **Collaboration handoff** — acceptance opens the conversation that makes the match useful
+1. **Signal clarity**: profiles show what someone builds, offers and needs
+2. **Explicit asks**: Connect and join requests need confirmation, so there's no silent spam
+3. **Lifecycle honesty**: pending, accepted and declined states are visible to both sides
+4. **Capacity respect**: full teams stop showing as recruiting, so no one requests a seat that doesn't exist
+5. **Start, don't just match**: an accepted partnership opens a chat with a first problem to build
 
-## View Profile
+## Profile as a decision surface
 
-Profile is a decision surface, not a vanity page:
-
-- About + skills + looking-for
-- Portfolio / GitHub credibility
-- Join actions when the profile owner is recruiting
-- Active hackathon team badge when relevant
+- What they're building, roles offered and needed, interests
+- Hackathons joined, build partners, projects, GitHub
+- A join action only while their team is recruiting
+- Share link with a personal-tip message
 
 ## Related Documents
 
