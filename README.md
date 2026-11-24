@@ -11,7 +11,6 @@
 [![Website](https://img.shields.io/badge/Website-loopbuilders.app-801C42?style=for-the-badge)](https://loopbuilders.app)
 [![Status](https://img.shields.io/badge/Status-TestFlight_beta-D8C3A5?style=for-the-badge)](#status)
 [![Documentation](https://img.shields.io/badge/Docs-Case_Study-02050F?style=for-the-badge)](./docs/README.md)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Huda-1a1814?style=for-the-badge)](https://hudaalzharani-commits.github.io/huda-portfolio/)
 
 ---
 
@@ -189,7 +188,6 @@ Loop_showcase/
 **Huda Mohammed AL Zahrani**
 Founder of LOOP · Product Builder · TPM · Systems Thinker
 
-- Portfolio: [hudaalzharani-commits.github.io/huda-portfolio](https://hudaalzharani-commits.github.io/huda-portfolio/)
 - GitHub: [@hudaalzharani-commits](https://github.com/hudaalzharani-commits)
 - LOOP: [loopbuilders.app](https://loopbuilders.app)
 
@@ -197,4 +195,4 @@ Founder of LOOP · Product Builder · TPM · Systems Thinker
 
 ## License & Usage
 
-This showcase documentation is provided for portfolio and review purposes. The LOOP implementation and related intellectual property remain private unless agreed otherwise in writing.
+This showcase documentation is provided for review purposes. The LOOP implementation and related intellectual property remain private unless agreed otherwise in writing.
